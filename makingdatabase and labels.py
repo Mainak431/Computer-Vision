@@ -20,11 +20,11 @@ for folder in listing :
         path3 = path + "\\" + files
         listing3 = os.listdir(path3)
         for file in listing3:
-            #im = Image.open(path3 + '\\' + file)
-            #img = im.resize((img_rows, img_cols))
-            #gray = img.convert('L')
+            im = Image.open(path3 + '\\' + file)
+            img = im.resize((img_rows, img_cols))
+            gray = img.convert('L')
             # need to do some more processing here
-            #gray.save(path2 + '\\' + file, "JPEG")
+            gray.save(path2 + '\\' + file, "JPEG")
             y.append(folder)
 
 imlist = os.listdir(path2)
