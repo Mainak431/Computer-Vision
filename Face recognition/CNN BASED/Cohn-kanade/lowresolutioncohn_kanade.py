@@ -65,7 +65,7 @@ batch_size = 20
 # number of output classes
 nb_classes = len(set(itemlist))
 # number of epochs to train
-nb_epoch = 10
+nb_epoch = 20
 
 # number of convolutional filters to use
 nb_filters = 32
